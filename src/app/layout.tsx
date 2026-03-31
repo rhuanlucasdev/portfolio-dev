@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 import "./globals.css";
 
@@ -34,6 +36,8 @@ export default function RootLayout({
         <div className="relative min-h-screen overflow-hidden bg-background">
           {children}
         </div>
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
