@@ -150,11 +150,14 @@ npm run dev
 </p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%23386641-386641?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/%236A994E-6A994E?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/%23A7C957-A7C957?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/%23F2E8CF-F2E8CF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/%23BC4749-BC4749?style=for-the-badge" />
+<img src="https://img.shields.io/badge/%230A0D1C-0A0D1C?style=for-the-badge" />
+<img src="https://img.shields.io/badge/%230F1321-0F1321?style=for-the-badge" />
+<img src="https://img.shields.io/badge/%23171B2A-171B2A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/%23262939-262939?style=for-the-badge" />
+<img src="https://img.shields.io/badge/%23B4C5FF-B4C5FF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/%232563EB-2563EB?style=for-the-badge" />
+<img src="https://img.shields.io/badge/%23C3C6D7-C3C6D7?style=for-the-badge" />
+<img src="https://img.shields.io/badge/%23FFFFFF-FFFFFF?style=for-the-badge" />
 </div>
 
 ---
