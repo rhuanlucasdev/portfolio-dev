@@ -18,7 +18,7 @@ export default function HomePage() {
         <Navbar />
 
         <main className="relative flex-1 overflow-hidden">
-          <div className="mx-auto flex w-full max-w-7xl flex-col px-6 pb-24 pt-28 sm:px-8 lg:px-12">
+          <div className="mx-auto flex w-full max-w-7xl flex-col px-1 pb-24 pt-28 sm:px-8 lg:px-12">
             <Hero />
             <About />
             <Projects />
