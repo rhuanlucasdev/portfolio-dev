@@ -39,14 +39,14 @@ const GithubActivity = () => {
               </span>
             </div>
 
-            <div className="p-6">
-              <div className="react-github-calendar">
+            <div className="p-6 ">
+              <div className="max-w-75 md:max-w-full">
                 <GitHubCalendar
                   username="rhuanlucasdev"
+                  colorScheme="dark"
                   blockSize={6}
                   blockMargin={4}
                   fontSize={12}
-                  colorScheme="dark"
                   theme={{
                     dark: [
                       "#171b2a",
@@ -59,7 +59,7 @@ const GithubActivity = () => {
                   style={{
                     color: "#c3c6d7",
                     fontFamily: "var(--font-body)",
-                    width: "100%",
+                    minWidth: "100% ",
                   }}
                 />
               </div>
@@ -94,7 +94,7 @@ const GithubActivity = () => {
 
                 <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/3 px-4 py-3">
                   <span className="text-muted-foreground">Tecnologias</span>
-                  <span className="font-mono text-lg font-semibold text-foreground">
+                  <span className="font-mono text-xs lg:text-lg font-semibold text-foreground">
                     React • TS • Node.js
                   </span>
                 </div>

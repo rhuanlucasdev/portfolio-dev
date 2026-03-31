@@ -317,25 +317,3 @@
     transform: scale(1.35);
   }
 }
-
-.react-github-calendar rect {
-  rx: 4px;
-  ry: 4px;
-  transition:
-    transform 0.2s ease,
-    filter 0.2s ease;
-}
-
-.react-github-calendar rect:hover {
-  transform: scale(1.15);
-  filter: drop-shadow(0 0 8px rgba(37, 99, 235, 0.55));
-}
-
-.react-github-calendar text {
-  fill: #8f96ad;
-  font-size: 12px;
-}
-
-.react-github-calendar {
-  width: 100%;
-}
