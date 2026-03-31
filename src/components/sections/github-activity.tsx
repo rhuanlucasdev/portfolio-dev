@@ -1,4 +1,5 @@
 import React from "react";
+import { GitHubCalendar } from "react-github-calendar";
 
 const GithubActivity = () => {
   return (
@@ -39,11 +40,27 @@ const GithubActivity = () => {
             </div>
 
             <div className="p-6">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-black/20 p-4">
-                <img
-                  src="https://ghchart.rshah.org/6A994E/rhuanlucasdev"
-                  alt="GitHub Contribution Graph"
-                  className="w-full rounded-xl opacity-90"
+              <div className="react-github-calendar">
+                <GitHubCalendar
+                  username="rhuanlucasdev"
+                  blockSize={6}
+                  blockMargin={4}
+                  fontSize={12}
+                  colorScheme="dark"
+                  theme={{
+                    dark: [
+                      "#171b2a",
+                      "#262939",
+                      "#334155",
+                      "#2563eb",
+                      "#b4c5ff",
+                    ],
+                  }}
+                  style={{
+                    color: "#c3c6d7",
+                    fontFamily: "var(--font-body)",
+                    width: "100%",
+                  }}
                 />
               </div>
 
