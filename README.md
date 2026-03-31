@@ -1,36 +1,192 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="./public/preview.png" alt="Portfolio Preview" width="100%" />
 
-## Getting Started
+  <h1>💻 Portfolio v2 — Rhuan Lucas Carvalho</h1>
 
-First, run the development server:
+  <p>
+    Um portfólio moderno inspirado na interface do VS Code, desenvolvido para apresentar meus projetos, trajetória e habilidades como desenvolvedor front-end.
+  </p>
 
-```bash
+  <p>
+    <img src="https://img.shields.io/badge/Next.js-15-000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+    <img src="https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+    <img src="https://img.shields.io/badge/Framer_Motion-000000?style=for-the-badge&logo=framer&logoColor=white" />
+    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  </p>
+
+  <p>
+    <a href="#-preview">Preview</a> •
+    <a href="#-features">Features</a> •
+    <a href="#-tech-stack">Tech Stack</a> •
+    <a href="#-running-locally">Running Locally</a> •
+    <a href="#-project-structure">Project Structure</a>
+  </p>
+</div>
+
+---
+
+<h2 id="-preview">📸 Preview</h2>
+
+<div align="center">
+  <img src="./assets/demo.gif" alt="Portfolio Demo" width="100%" />
+</div>
+
+<p>
+  O design utiliza uma estética inspirada no VS Code, com navegação lateral, seções organizadas como arquivos, tipografia limpa e uma paleta escura com destaque em tons de verde.
+</p>
+
+---
+
+<h2 id="-features">✨ Features</h2>
+
+<ul>
+  <li>Layout totalmente responsivo</li>
+  <li>Sidebar interativa inspirada no VS Code</li>
+  <li>Seção Hero com apresentação profissional</li>
+  <li>Sobre mim com stack e especialidades</li>
+  <li>Seção de projetos com destaque para repositórios reais</li>
+  <li>Timeline com trajetória de aprendizado e experiência</li>
+  <li>GitHub Activity com gráfico de contribuições</li>
+  <li>Call to Action para contato e networking</li>
+  <li>Animações suaves com Framer Motion</li>
+  <li>Deploy automático via Vercel</li>
+</ul>
+
+---
+
+<h2 id="-tech-stack">🛠 Tech Stack</h2>
+
+<table>
+  <tr>
+    <td><strong>Framework</strong></td>
+    <td>Next.js 15</td>
+  </tr>
+  <tr>
+    <td><strong>UI</strong></td>
+    <td>React 19 + TailwindCSS</td>
+  </tr>
+  <tr>
+    <td><strong>Linguagem</strong></td>
+    <td>TypeScript</td>
+  </tr>
+  <tr>
+    <td><strong>Animações</strong></td>
+    <td>Framer Motion</td>
+  </tr>
+  <tr>
+    <td><strong>Ícones</strong></td>
+    <td>Lucide React</td>
+  </tr>
+  <tr>
+    <td><strong>Deploy</strong></td>
+    <td>Vercel</td>
+  </tr>
+</table>
+
+---
+
+<h2 id="-running-locally">🚀 Running Locally</h2>
+
+<pre><code># Clone o repositório
+git clone https://github.com/rhuanlucasdev/portfolio-v2.git
+
+# Entre na pasta
+cd portfolio-v2
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+</code></pre>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>
+  Depois disso, abra <code>http://localhost:3000</code> no navegador.
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<h2 id="-project-structure">📁 Project Structure</h2>
 
-## Learn More
+<pre><code>src/
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+│   └── globals.css
+├── components/
+│   ├── Sidebar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Projects.tsx
+│   ├── Timeline.tsx
+│   ├── GithubActivity.tsx
+│   ├── CTA.tsx
+│   └── Footer.tsx
+├── data/
+│   ├── projects.ts
+│   └── timeline.ts
+└── lib/
+</code></pre>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2>📌 Featured Projects</h2>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<ul>
+  <li><strong>Gaming PC Builder</strong> — Plataforma para montar um setup personalizado no estilo “Mount your PC”.</li>
+  <li><strong>Bikecraft React</strong> — Recriação do projeto Bikecraft em React com componentes reutilizáveis.</li>
+  <li><strong>Finance App</strong> — Sistema de controle financeiro com arquitetura escalável.</li>
+  <li><strong>Portfolio VS Code</strong> — Este próprio portfólio inspirado na interface do editor.</li>
+</ul>
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h2>🎨 Design System</h2>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p>
+  A interface utiliza a seguinte paleta principal:
+</p>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/%23386641-386641?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/%236A994E-6A994E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/%23A7C957-A7C957?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/%23F2E8CF-F2E8CF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/%23BC4749-BC4749?style=for-the-badge" />
+</div>
+
+---
+
+<h2>🌐 Deploy</h2>
+
+<p>
+  O projeto está hospedado na Vercel e configurado com domínio próprio.
+</p>
+
+<pre><code>npm run build
+</code></pre>
+
+<p>
+  Sempre que um novo commit é enviado para a branch <code>main</code>, o deploy é realizado automaticamente.
+</p>
+
+---
+
+<h2>🤝 Contato</h2>
+
+<div align="center">
+  <a href="https://github.com/rhuanlucasdev">
+    <img src="https://img.shields.io/badge/GitHub-rhuanlucasdev-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-Rhuan%20Lucas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <sub>Desenvolvido por Rhuan Lucas Carvalho com muito café, dedicação e algumas horas olhando para o VS Code.</sub>
+</div>
