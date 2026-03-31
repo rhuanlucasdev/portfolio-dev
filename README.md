@@ -90,10 +90,10 @@
 <h2 id="-running-locally">🚀 Running Locally</h2>
 
 <pre><code># Clone o repositório
-git clone https://github.com/rhuanlucasdev/portfolio-v2.git
+git clone https://github.com/rhuanlucasdev/portfolio-dev.git
 
 # Entre na pasta
-cd portfolio-v2
+cd portfolio-dev
 
 # Instale as dependências
 npm install
@@ -180,7 +180,7 @@ npm run dev
   <a href="https://github.com/rhuanlucasdev">
     <img src="https://img.shields.io/badge/GitHub-rhuanlucasdev-181717?style=for-the-badge&logo=github" />
   </a>
-  <a href="https://www.linkedin.com/">
+  <a href="https://www.linkedin.com/rhuanlucas">
     <img src="https://img.shields.io/badge/LinkedIn-Rhuan%20Lucas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </div>
