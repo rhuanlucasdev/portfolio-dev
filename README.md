@@ -135,10 +135,10 @@ npm run dev
 <h2>📌 Featured Projects</h2>
 
 <ul>
-  <li><strong>Gaming PC Builder</strong> — Plataforma para montar um setup personalizado no estilo “Mount your PC”.</li>
-  <li><strong>Bikecraft React</strong> — Recriação do projeto Bikecraft em React com componentes reutilizáveis.</li>
-  <li><strong>Finance App</strong> — Sistema de controle financeiro com arquitetura escalável.</li>
-  <li><strong>Portfolio VS Code</strong> — Este próprio portfólio inspirado na interface do editor.</li>
+  <li><strong>Finly</strong> — Dashboard financeiro pessoal para acompanhar receitas, despesas, metas e investimentos com interface moderna e arquitetura full stack.</li>
+  <li><strong>Task Manager Fullstack</strong> — Gerenciador de tarefas moderno construído com Vue, Spring Boot e PostgreSQL, focado em arquitetura escalável e interface refinada.</li>
+  <li><strong>XP Forge</strong> — Planejador e rastreador de progresso para habilidades de RuneScape, criado com foco em UX e organização de metas.</li>
+  <li><strong>Velour</strong> — Ferramenta para criadores organizarem ideias, criarem hooks de alto impacto e transformarem inspiração em conteúdo pronto para publicação.</li>
 </ul>
 
 ---
