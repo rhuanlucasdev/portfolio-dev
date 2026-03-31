@@ -115,8 +115,10 @@ npm run dev
 │   ├── page.tsx
 │   ├── layout.tsx
 │   └── globals.css
-├── components/
+├── layout/
 │   ├── Sidebar.tsx
+│   ├── Navbar.tsx
+├── sections/
 │   ├── Hero.tsx
 │   ├── About.tsx
 │   ├── Projects.tsx
@@ -124,9 +126,6 @@ npm run dev
 │   ├── GithubActivity.tsx
 │   ├── CTA.tsx
 │   └── Footer.tsx
-├── data/
-│   ├── projects.ts
-│   └── timeline.ts
 └── lib/
 </code></pre>
 
