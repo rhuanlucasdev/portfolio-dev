@@ -1,6 +1,21 @@
 export default function Projects() {
   const projects = [
     {
+      id: "bikecraft",
+      file: "bikecraft/page.jsx",
+      title: "Bikecraft",
+      description:
+        "Recriação do projeto Bikecraft com Next.js e React — catálogo de bicicletas e layout moderno.",
+      stack: ["Next.js", "React", "CSS Modules"],
+      features: [
+        "Lista de bicicletas com cards",
+        "Layout responsivo e componentes reutilizáveis",
+        "Rotas dedicadas para páginas de bicicletas e contato",
+      ],
+      github: "https://github.com/rhuanlucasdev/bikecraft-react",
+      demo: "https://bikecraft-react-three.vercel.app/",
+    },
+    {
       id: "finly",
       file: "finly/page.tsx",
       title: "Finly",
@@ -121,8 +136,7 @@ export default function Projects() {
 
                   <div className="rounded-2xl border border-outline bg-[#0f1726] p-5 font-mono text-sm leading-7 text-foreground-subtle">
                     <div>
-                      <span className="text-primary">//</span>{" "}
-                      {project.title}
+                      <span className="text-primary">//</span> {project.title}
                     </div>
                     <div>
                       <span className="text-primary">//</span>{" "}
@@ -130,26 +144,18 @@ export default function Projects() {
                     </div>
                     <div className="mt-4 text-foreground">
                       <span className="text-accent">const</span>{" "}
-                      <span className="text-primary">
-                        features
-                      </span>{" "}
-                      = [
+                      <span className="text-primary">features</span> = [
                     </div>
 
                     <div className="mt-2 space-y-1 pl-6">
                       {project.features.map((feature) => (
                         <div key={feature}>
-                          <span className="text-accent-2">
-                            "{feature}"
-                          </span>
-                          ,
+                          <span className="text-accent-2">"{feature}"</span>,
                         </div>
                       ))}
                     </div>
 
-                    <div className="mt-2 text-foreground">
-                      ];
-                    </div>
+                    <div className="mt-2 text-foreground">];</div>
                   </div>
                 </div>
 
@@ -172,9 +178,21 @@ export default function Projects() {
                   </div>
 
                   <div className="flex flex-wrap gap-3">
+                    {project.demo && project.demo !== "#" && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center justify-center rounded-xl border border-outline px-4 py-2 text-sm font-medium text-foreground transition-all duration-200 hover:border-primary hover:bg-surface-container"
+                      >
+                        Preview
+                      </a>
+                    )}
+
                     <a
                       href={project.github}
                       target="_blank"
+                      rel="noreferrer"
                       className="inline-flex items-center justify-center rounded-xl border border-outline px-4 py-2 text-sm font-medium text-foreground transition-all duration-200 hover:border-primary hover:bg-surface-container"
                     >
                       View Code
